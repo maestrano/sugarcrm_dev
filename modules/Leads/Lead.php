@@ -489,6 +489,14 @@ class Lead extends Person {
 			$this->status = 'New';
 		// call save first so that $this->id will be set
 		$value = parent::save($check_notify);
+
+    // Hook Maestrano
+    $mapper = 'LeadMapper';
+    if(class_exists($mapper)) {
+      $leadMapper = new $mapper();
+      $leadMapper->processLocalUpdate($this, $pushToConnec, false);
+    }
+
 		return $value;
 	}
 	function get_unlinked_email_query($type=array()) {
