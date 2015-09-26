@@ -73,9 +73,10 @@ class InvoiceMapper extends TransactionMapper {
       // Delete local invoice lines that have been removed
       $local_invoice_lines = $invoice->get_linked_beans('oqc_service', 'oqc_Service');
       foreach ($local_invoice_lines as $local_invoice_line) {
-        if(!in_array($local_invoice_line->id, $processed_lines_local_ids)) {
+        $invoice_line_id = $invoice_line_mapper->getId($local_invoice_line);
+        if(!in_array($invoice_line_id, $processed_lines_local_ids)) {
           $invoice->oqc_service->delete($invoice->id, $local_invoice_line->id);
-          MnoIdMap::hardDeleteMnoIdMap($local_invoice_line->id, 'INVOICE_LINE');
+          MnoIdMap::hardDeleteMnoIdMap($invoice_line_id, 'INVOICE_LINE');
         }
       }
     }
