@@ -316,7 +316,8 @@ class SugarAuthenticate{
 	function logout(){
 			session_destroy();
 			ob_clean();
-			header('Location: index.php?module=Users&action=Login');
+			// Hook:Maestrano
+			header('Location: ' . Maestrano::sso()->getLogoutUrl());
 			sugar_cleanup(true);
 	}
 
