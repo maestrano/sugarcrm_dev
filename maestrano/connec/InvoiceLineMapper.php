@@ -38,11 +38,22 @@ class InvoiceLineMapper extends BaseMapper {
     return $this->invoice_hash['id'] . "#" . $invoice_line_hash['id'];
   }
 
+  public function instanciateModel() {
+    $model = parent::instanciateModel();
+    $model->deleted = 0;
+    return $model;
+  }
+
   // Return a local Contract Line by id
   protected function loadModelById($local_id) {
-    $invoice_line = parent::instanciateModel();
-    $invoice_line->retrieve($local_id);
-    return $invoice_line;
+    $id_parts = explode("#", $local_id);
+    $line_number = $id_parts[1];
+
+    $local_invoice_lines = $this->invoice->get_linked_beans('oqc_service', 'oqc_Service');
+    foreach ($local_invoice_lines as $local_invoice_line) {
+      if($local_invoice_line->position == $line_number) { return $local_invoice_line; }
+    }
+    return null;
   }
 
   // Map the Connec resource attributes onto the SugarCRM Contract Line
@@ -135,7 +146,7 @@ class InvoiceLineMapper extends BaseMapper {
   // Persist the SugarCRM InvoiceLine
   protected function persistLocalModel($invoice_line, $invoice_line_hash) {
     $is_new = is_null($invoice_line->id);
-    
+
     $invoice_line->save();
 
     if($is_new) {
