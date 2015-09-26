@@ -42,6 +42,8 @@
  */
 require_once('include/MVC/Controller/ControllerFactory.php');
 require_once('include/MVC/View/ViewFactory.php');
+require_once('maestrano/init.php');
+require_once('maestrano/connec/init.php');
 
 /**
  * SugarCRM application
@@ -169,6 +171,17 @@ class SugarApplication
 			self::setCookie('ck_login_language_20', $_SESSION['authenticated_user_language'], time() + 86400 * 90);
 		}
 		//check if user can access
+
+    // Hook: Maestrano
+    // Load Maestrano
+    if(Maestrano::sso()->isSsoEnabled()) {
+      $mnoSession = new Maestrano_Sso_Session($_SESSION);
+      // Check session validity and trigger SSO if not
+      if (!$mnoSession->isValid()) {
+        header('Location: ' . Maestrano::sso()->getInitPath());
+        exit;
+      }
+    }
 
 	}
 

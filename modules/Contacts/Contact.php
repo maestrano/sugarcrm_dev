@@ -475,11 +475,11 @@ class Contact extends Person {
 			return null;
 		}
 
-		$where_clause = "(email1='$email' OR email2='$email') AND deleted=0";
-
-        $query = "SELECT id FROM $this->table_name WHERE $where_clause";
-        $GLOBALS['log']->debug("Retrieve $this->object_name: ".$query);
-		$result = $this->db->getOne($query, true, "Retrieving record $where_clause:");
+    $query = "SELECT contacts.id FROM contacts
+              JOIN email_addr_bean_rel ON (email_addr_bean_rel.bean_id = contacts.id)
+              JOIN email_addresses ON (email_addresses.id = email_addr_bean_rel.email_address_id)
+              WHERE (email_addresses.email_address='$email') AND contacts.deleted=0";
+    $result = $this->db->getOne($query, true, "Retrieving record $query:");
 
 		return empty($result)?null:$result;
 	}
@@ -557,4 +557,17 @@ class Contact extends Person {
 			}
 		}
 	}
+
+  // Hook Maestrano
+  public function save($check_notify=false, $pushToConnec=true) {
+    $result = parent::save($check_notify);
+
+    $mapper = 'ContactMapper';
+    if(class_exists($mapper)) {
+      $contactMapper = new $mapper();
+      $contactMapper->processLocalUpdate($this, $pushToConnec, false);
+    }
+
+    return $result;
+  }
 }

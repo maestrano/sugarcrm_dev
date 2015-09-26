@@ -331,4 +331,16 @@ class Account extends Company {
 		return get_unlinked_email_query($type, $this);
 	}
 
+  // Hook Maestrano
+  public function save($check_notify=false, $pushToConnec=true) {
+    $result = parent::save($check_notify);
+
+    $mapper = 'OrganizationMapper';
+    if(class_exists($mapper)) {
+      $organizationMapper = new $mapper();
+      $organizationMapper->processLocalUpdate($this, $pushToConnec, false);
+    }
+
+    return $result;
+  }
 }

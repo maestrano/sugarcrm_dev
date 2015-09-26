@@ -1,0 +1,160 @@
+# Include sugarcrm specific configuration
+- include_vars: "{{ item }}"
+  with_items:
+    - sugarcrm.yml
+    - version.yml
+  tags:
+    - configuration
+    - update
+
+- name: General | Install Application packages
+  apt: "name={{ item }} state=present"
+  with_items:
+    - git
+    - curl
+
+- name: SugarCRM | Ensure MySQL is running
+  command: service mysql start
+  ignore_errors: yes
+  tags:
+    - configuration
+
+- name: SugarCRM | Create SugarCRM database
+  mysql_db:
+    login_user: root
+    login_password: "{{ mysql_root_password }}"
+    db: "{{ sugarcrm_db_name }}"
+    state: present
+
+- name: SugarCRM | Create SugarCRM database user
+  mysql_user:
+    name: "{{ sugarcrm_db_user }}"
+    password: "{{ sugarcrm_db_password }}"
+    priv: "{{ sugarcrm_db_name }}.*:ALL,GRANT"
+    state: present
+    login_user: root
+    login_password: "{{ mysql_root_password }}"
+
+- name: SugarCRM | Download application from Github
+  sudo: false
+  git:
+    repo: "https://github.com/{{ application_repository }}/sugarcrm_dev.git"
+    dest: "{{ sugarcrm_root_path }}"
+    version: "{{ application_version }}"
+    accept_hostkey: yes
+    ssh_opts: "-o StrictHostKeyChecking=no"
+    update: yes
+    force: yes
+  tags:
+    - update
+
+- name: SugarCRM | Current commit hash
+  shell: 'git log -n 1 --pretty=format:"%H" > {{ sugarcrm_root_path }}/.git-version'
+  args:
+    chdir: "{{ sugarcrm_root_path }}"
+  tags:
+    - update
+
+- name: Git | Ignore files permissions changes
+  command: "git config core.filemode false chdir={{ sugarcrm_root_path }}"
+  tags:
+    - update
+
+- name: Ansible | Update scripts
+  copy:
+    src: "{{ sugarcrm_root_path }}/deploy/ansible"
+    dest: /etc/
+  tags:
+    - update
+
+- name: SugarCRM | Configure Apache virtual host
+  template: 
+    src: etc-apache24-confd-sugarcrm-conf
+    dest: /etc/apache2/sites-available/sugarcrm.conf
+    owner: root
+    mode: 755
+  tags:
+    - configuration
+
+- name: SugarCRM | Enable Apache virtual host 
+  file: src=/etc/apache2/sites-available/sugarcrm.conf dest=/etc/apache2/sites-enabled/sugarcrm.conf state=link
+
+- name: Apache | Restart the Apache service
+  service: 
+    name: apache2 
+    state: restarted
+
+- name: SugarCRM | Set file permissions
+  file:
+    path: "{{ sugarcrm_root_path }}"
+    mode: 0755
+    owner: www-data
+    group: www-data
+    state: directory
+    recurse: yes
+  tags:
+    - configuration
+
+- name: SugarCRM | Configuration file config.php
+  template: 
+    src: sugarcrm-config.php
+    dest: "{{ sugarcrm_root_path }}/config.php"
+    owner: root
+    mode: 0755
+  tags:
+    - configuration
+
+- name: SugarCRM | Base schema base_schema.sql
+  template: 
+    src: sugarcrm-base-schema.sql
+    dest: "{{ sugarcrm_root_path }}/maestrano/app/db/0_base_schema.sql"
+    owner: www-data
+    group: www-data
+    mode: 0755
+
+- name: SugarCRM | Apply Maestrano patch
+  shell: "mysql {{ sugarcrm_db_name }} -u{{sugarcrm_db_user}} -p{{sugarcrm_db_password}} < maestrano/app/db/{{ item }}"
+  args:
+    chdir: "{{ sugarcrm_root_path }}"
+  with_items:
+    - 0_base_schema.sql
+    - 1_add_mno_uid_field.sql
+    - 2_add_mno_id_map.sql
+
+- name: SugarCRM | Configuration file maestrano.json
+  template: 
+    src: sugarcrm-maestrano.json
+    dest: "{{ sugarcrm_root_path }}/maestrano.json"
+    owner: www-data
+    group: www-data
+    mode: 777
+  tags:
+    - configuration
+
+- name: SugarCRM | Set log files permissions
+  file:
+    path: /var/log/apache2
+    mode: 0755
+    owner: www-data
+    group: www-data
+    state: directory
+    recurse: yes
+  tags:
+    - configuration
+
+- name: SugarCRM | Import Connec! data
+  shell: "(nohup php initialize.php 1>/var/log/apache2/sugarcrm_initialize.log 2>&1) &"
+  args:
+    chdir: "{{ sugarcrm_root_path }}/maestrano/data"
+  sudo_user: www-data
+  tags:
+    - configuration
+
+- name: SugarCRM | Cron job
+  cron:
+    name: SugarCRM job to run every minute
+    minute: "*/5"
+    hour: "*"
+    job: "php -f {{ sugarcrm_root_path }}/cron/cron.php"
+  tags:
+    - configuration
