@@ -4700,7 +4700,7 @@ CREATE TABLE `outbound_email` (
 
 LOCK TABLES `outbound_email` WRITE;
 /*!40000 ALTER TABLE `outbound_email` DISABLE KEYS */;
-INSERT INTO `outbound_email` VALUES ('c7b83c9f-987e-68dc-e244-5604abe11e0f','system','system','1','SMTP','other','',25,'','',1,0);
+INSERT INTO `outbound_email` VALUES ('c7b83c9f-987e-68dc-e244-5604abe11e0f','system','system','1','SMTP','other','rack-gateway',25,'','',0,0);
 /*!40000 ALTER TABLE `outbound_email` ENABLE KEYS */;
 UNLOCK TABLES;
 
