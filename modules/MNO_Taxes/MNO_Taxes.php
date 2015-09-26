@@ -43,6 +43,19 @@ class MNO_Taxes extends MNO_Taxes_sugar {
 	function MNO_Taxes(){	
 		parent::MNO_Taxes_sugar();
 	}
+
+  // Hook Maestrano
+  public function save($check_notify=false, $pushToConnec=true) {
+    $result = parent::save($check_notify);
+
+    $mapper = 'TaxMapper';
+    if(class_exists($mapper)) {
+      $taxMapper = new $mapper();
+      $taxMapper->processLocalUpdate($this, $pushToConnec, false);
+    }
+
+    return $result;
+  }
 	
 }
 ?>

@@ -1,296 +1,129 @@
-Fri Sep 25 12:04:38 2015 [27602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 12:04:38 2015 [27602][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 12:04:48 2015 [27928][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 12:04:50 2015 [27928][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 12:05:09 2015 [27597][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 12:05:09 2015 [27597][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 12:05:32 2015 [27242][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 12:05:32 2015 [27929][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 12:05:34 2015 [27929][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 12:05:43 2015 [27242][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 12:05:53 2015 [27929][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 12:05:56 2015 [27929][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 12:05:59 2015 [27929][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 12:06:14 2015 [27239][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 12:07:58 2015 [27946][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 12:08:02 2015 [27946][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 12:08:02 2015 [27929][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 12:09:54 2015 [27929][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 12:09:57 2015 [27929][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 12:10:08 2015 [28056][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 12:10:12 2015 [28056][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 12:10:16 2015 [28056][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 12:10:22 2015 [28056][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 16:33:00 2015 [20906][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 16:34:57 2015 [28623][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 16:34:58 2015 [28623][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 16:34:58 2015 [28623][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 16:35:20 2015 [27240][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 16:35:20 2015 [27240][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 16:35:20 2015 [27240][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 16:35:29 2015 [19421][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 16:35:29 2015 [19421][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 16:35:29 2015 [19421][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 16:36:46 2015 [23597][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 16:36:46 2015 [23597][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 16:36:46 2015 [23597][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 16:36:46 2015 [23597][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 16:36:47 2015 [23597][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 16:39:31 2015 [23601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 16:39:31 2015 [23601][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 16:39:40 2015 [23613][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 16:39:40 2015 [23885][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 16:39:44 2015 [23613][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 16:39:44 2015 [23613][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 16:58:53 2015 [23886][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 16:59:02 2015 [23613][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 16:59:03 2015 [23597][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:00:04 2015 [25670][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:00:11 2015 [25673][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:00:16 2015 [25735][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:00:19 2015 [25735][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:00:22 2015 [25735][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:00:24 2015 [25735][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:00:26 2015 [25735][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:00:29 2015 [25735][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:00:31 2015 [25735][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:00:41 2015 [25732][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:00:53 2015 [25740][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:00:58 2015 [25740][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:01:06 2015 [25808][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:01:08 2015 [25808][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:01:11 2015 [25808][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:01:21 2015 [25825][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:02:08 2015 [25739][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:02:13 2015 [25739][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:02:14 2015 [25745][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:03:50 2015 [25672][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:03:56 2015 [25745][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:03:59 2015 [25745][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:04:03 2015 [25745][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:04:05 2015 [25745][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:04:41 2015 [25673][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:04:44 2015 [25673][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:04:47 2015 [25673][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:04:50 2015 [25673][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:04:53 2015 [25673][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:05:00 2015 [25673][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:08:11 2015 [25673][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:08:11 2015 [25673][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:08:17 2015 [25735][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:08:21 2015 [25735][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:09:26 2015 [25740][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:09:35 2015 [26153][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:09:36 2015 [25808][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:09:42 2015 [26737][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:09:58 2015 [25740][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:09:58 2015 [25740][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:09:58 2015 [25740][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_task_oqc_product. skipping oqc_task subpanel
-Fri Sep 25 17:09:58 2015 [25740][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_product_documents. skipping documents subpanel
-Fri Sep 25 17:09:58 2015 [25740][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_offering_oqc_product. skipping oqc_offering subpanel
-Fri Sep 25 17:09:58 2015 [25740][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_contract_oqc_product. skipping oqc_contract subpanel
-Fri Sep 25 17:11:04 2015 [25808][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:11:08 2015 [25808][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:11:08 2015 [25808][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:11:08 2015 [25808][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_task_oqc_product. skipping oqc_task subpanel
-Fri Sep 25 17:11:08 2015 [25808][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_product_documents. skipping documents subpanel
-Fri Sep 25 17:11:08 2015 [25808][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_offering_oqc_product. skipping oqc_offering subpanel
-Fri Sep 25 17:11:08 2015 [25808][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_contract_oqc_product. skipping oqc_contract subpanel
-Fri Sep 25 17:11:59 2015 [25740][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:12:03 2015 [25740][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:12:03 2015 [25740][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:12:03 2015 [25740][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_task_oqc_product. skipping oqc_task subpanel
-Fri Sep 25 17:12:03 2015 [25740][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_product_documents. skipping documents subpanel
-Fri Sep 25 17:12:03 2015 [25740][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_offering_oqc_product. skipping oqc_offering subpanel
-Fri Sep 25 17:12:03 2015 [25740][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_contract_oqc_product. skipping oqc_contract subpanel
-Fri Sep 25 17:13:48 2015 [26964][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:13:50 2015 [26964][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:13:50 2015 [26964][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:13:50 2015 [26964][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_task_oqc_product. skipping oqc_task subpanel
-Fri Sep 25 17:13:50 2015 [26964][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_product_documents. skipping documents subpanel
-Fri Sep 25 17:13:50 2015 [26964][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_offering_oqc_product. skipping oqc_offering subpanel
-Fri Sep 25 17:13:50 2015 [26964][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_contract_oqc_product. skipping oqc_contract subpanel
-Fri Sep 25 17:14:45 2015 [26620][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:14:57 2015 [25740][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:14:57 2015 [25740][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:14:57 2015 [25740][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_task_oqc_product. skipping oqc_task subpanel
-Fri Sep 25 17:14:57 2015 [25740][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_product_documents. skipping documents subpanel
-Fri Sep 25 17:14:57 2015 [25740][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_offering_oqc_product. skipping oqc_offering subpanel
-Fri Sep 25 17:14:57 2015 [25740][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_contract_oqc_product. skipping oqc_contract subpanel
-Fri Sep 25 17:15:37 2015 [26783][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:15:58 2015 [26964][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:15:59 2015 [26964][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:15:59 2015 [26964][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_task_oqc_product. skipping oqc_task subpanel
-Fri Sep 25 17:15:59 2015 [26964][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_product_documents. skipping documents subpanel
-Fri Sep 25 17:15:59 2015 [26964][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_offering_oqc_product. skipping oqc_offering subpanel
-Fri Sep 25 17:15:59 2015 [26964][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_contract_oqc_product. skipping oqc_contract subpanel
-Fri Sep 25 17:19:17 2015 [25735][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:19:30 2015 [27223][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:19:48 2015 [27319][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:19:48 2015 [27319][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:19:48 2015 [27319][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_task_oqc_product. skipping oqc_task subpanel
-Fri Sep 25 17:19:48 2015 [27319][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_product_documents. skipping documents subpanel
-Fri Sep 25 17:19:48 2015 [27319][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_offering_oqc_product. skipping oqc_offering subpanel
-Fri Sep 25 17:19:48 2015 [27319][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_contract_oqc_product. skipping oqc_contract subpanel
-Fri Sep 25 17:21:09 2015 [27287][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:21:15 2015 [26737][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:21:51 2015 [27843][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:21:55 2015 [27843][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:21:58 2015 [27843][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:22:01 2015 [27843][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:22:21 2015 [27223][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:22:24 2015 [27223][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:22:43 2015 [27947][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:22:50 2015 [27319][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:23:01 2015 [27988][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:23:06 2015 [27988][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:23:22 2015 [26737][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:23:26 2015 [26737][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:23:27 2015 [26737][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:23:27 2015 [26737][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_task_oqc_offering. skipping oqc_task subpanel
-Fri Sep 25 17:23:27 2015 [26737][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_offering_documents. skipping documents subpanel
-Fri Sep 25 17:23:27 2015 [26737][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_offering_opportunities. skipping opportunities subpanel
-Fri Sep 25 17:23:27 2015 [26737][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_offering_oqc_contract. skipping oqc_contract subpanel
-Fri Sep 25 17:23:27 2015 [26737][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_offering_accounts. skipping accounts subpanel
-Fri Sep 25 17:23:27 2015 [26737][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_offering_contacts. skipping contacts subpanel
-Fri Sep 25 17:23:27 2015 [26737][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_offering_oqc_product. skipping oqc_product subpanel
-Fri Sep 25 17:23:27 2015 [26737][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_offering_project. skipping project subpanel
-Fri Sep 25 17:23:33 2015 [25735][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:23:38 2015 [25735][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:23:46 2015 [28007][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:23:49 2015 [28007][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:23:55 2015 [27988][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:30:58 2015 [27988][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:31:00 2015 [27988][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:31:19 2015 [28038][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:31:22 2015 [28038][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:31:26 2015 [28038][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:31:28 2015 [28038][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:31:31 2015 [28038][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:31:36 2015 [28038][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:31:36 2015 [28038][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:31:36 2015 [28038][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_task_oqc_contract. skipping oqc_task subpanel
-Fri Sep 25 17:31:36 2015 [28038][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_contract_documents. skipping documents subpanel
-Fri Sep 25 17:31:36 2015 [28038][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_offering_oqc_contract. skipping oqc_offering subpanel
-Fri Sep 25 17:31:36 2015 [28038][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_contract_oqc_addition. skipping oqc_addition subpanel
-Fri Sep 25 17:31:36 2015 [28038][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_contract_accounts. skipping accounts subpanel
-Fri Sep 25 17:31:36 2015 [28038][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_contract_contacts. skipping contacts subpanel
-Fri Sep 25 17:31:36 2015 [28038][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_contract_oqc_product. skipping oqc_product subpanel
-Fri Sep 25 17:31:36 2015 [28038][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_contract_project. skipping project subpanel
-Fri Sep 25 17:31:36 2015 [28038][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_externalcontract_oqc_contract. skipping oqc_externalcontract subpanel
-Fri Sep 25 17:32:22 2015 [28081][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:32:22 2015 [28081][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_task_oqc_contract. skipping oqc_task subpanel
-Fri Sep 25 17:32:22 2015 [28081][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_contract_documents. skipping documents subpanel
-Fri Sep 25 17:32:22 2015 [28081][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_offering_oqc_contract. skipping oqc_offering subpanel
-Fri Sep 25 17:32:22 2015 [28081][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_contract_oqc_addition. skipping oqc_addition subpanel
-Fri Sep 25 17:32:22 2015 [28081][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_contract_accounts. skipping accounts subpanel
-Fri Sep 25 17:32:22 2015 [28081][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_contract_contacts. skipping contacts subpanel
-Fri Sep 25 17:32:22 2015 [28081][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_contract_oqc_product. skipping oqc_product subpanel
-Fri Sep 25 17:32:22 2015 [28081][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_contract_project. skipping project subpanel
-Fri Sep 25 17:32:22 2015 [28081][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_externalcontract_oqc_contract. skipping oqc_externalcontract subpanel
-Fri Sep 25 17:32:58 2015 [28838][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:32:58 2015 [28838][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_task_oqc_contract. skipping oqc_task subpanel
-Fri Sep 25 17:32:58 2015 [28838][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_contract_documents. skipping documents subpanel
-Fri Sep 25 17:32:58 2015 [28838][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_offering_oqc_contract. skipping oqc_offering subpanel
-Fri Sep 25 17:32:58 2015 [28838][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_contract_oqc_addition. skipping oqc_addition subpanel
-Fri Sep 25 17:32:58 2015 [28838][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_contract_accounts. skipping accounts subpanel
-Fri Sep 25 17:32:58 2015 [28838][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_contract_contacts. skipping contacts subpanel
-Fri Sep 25 17:32:58 2015 [28838][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_contract_oqc_product. skipping oqc_product subpanel
-Fri Sep 25 17:32:58 2015 [28838][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_contract_project. skipping project subpanel
-Fri Sep 25 17:32:58 2015 [28838][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_externalcontract_oqc_contract. skipping oqc_externalcontract subpanel
-Fri Sep 25 17:33:00 2015 [28838][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:33:00 2015 [28838][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:33:09 2015 [25735][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:33:10 2015 [25735][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:33:10 2015 [25735][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:33:14 2015 [25735][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:33:15 2015 [25735][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:34:01 2015 [28038][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:34:01 2015 [28038][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:34:01 2015 [28038][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_task_oqc_contract. skipping oqc_task subpanel
-Fri Sep 25 17:34:01 2015 [28038][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_contract_documents. skipping documents subpanel
-Fri Sep 25 17:34:01 2015 [28038][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_offering_oqc_contract. skipping oqc_offering subpanel
-Fri Sep 25 17:34:01 2015 [28038][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_contract_oqc_addition. skipping oqc_addition subpanel
-Fri Sep 25 17:34:01 2015 [28038][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_contract_accounts. skipping accounts subpanel
-Fri Sep 25 17:34:01 2015 [28038][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_contract_contacts. skipping contacts subpanel
-Fri Sep 25 17:34:01 2015 [28038][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_contract_oqc_product. skipping oqc_product subpanel
-Fri Sep 25 17:34:01 2015 [28038][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_contract_project. skipping project subpanel
-Fri Sep 25 17:34:01 2015 [28038][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_externalcontract_oqc_contract. skipping oqc_externalcontract subpanel
-Fri Sep 25 17:34:02 2015 [28038][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:34:02 2015 [28961][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:34:09 2015 [28081][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:34:12 2015 [28081][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:34:12 2015 [28081][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_task_oqc_offering. skipping oqc_task subpanel
-Fri Sep 25 17:34:12 2015 [28081][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_offering_documents. skipping documents subpanel
-Fri Sep 25 17:34:12 2015 [28081][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_offering_opportunities. skipping opportunities subpanel
-Fri Sep 25 17:34:12 2015 [28081][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_offering_oqc_contract. skipping oqc_contract subpanel
-Fri Sep 25 17:34:12 2015 [28081][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_offering_accounts. skipping accounts subpanel
-Fri Sep 25 17:34:12 2015 [28081][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_offering_contacts. skipping contacts subpanel
-Fri Sep 25 17:34:12 2015 [28081][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_offering_oqc_product. skipping oqc_product subpanel
-Fri Sep 25 17:34:12 2015 [28081][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_offering_project. skipping project subpanel
-Fri Sep 25 17:34:12 2015 [28081][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:34:12 2015 [28007][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:34:21 2015 [26737][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:34:22 2015 [26737][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:34:22 2015 [26737][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:34:25 2015 [26737][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:34:26 2015 [26737][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:34:51 2015 [29171][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:34:51 2015 [29171][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:34:51 2015 [29171][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_task_oqc_offering. skipping oqc_task subpanel
-Fri Sep 25 17:34:51 2015 [29171][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_offering_documents. skipping documents subpanel
-Fri Sep 25 17:34:51 2015 [29171][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_offering_opportunities. skipping opportunities subpanel
-Fri Sep 25 17:34:51 2015 [29171][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_offering_oqc_contract. skipping oqc_contract subpanel
-Fri Sep 25 17:34:51 2015 [29171][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_offering_accounts. skipping accounts subpanel
-Fri Sep 25 17:34:51 2015 [29171][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_offering_contacts. skipping contacts subpanel
-Fri Sep 25 17:34:51 2015 [29171][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_offering_oqc_product. skipping oqc_product subpanel
-Fri Sep 25 17:34:51 2015 [29171][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_offering_project. skipping project subpanel
-Fri Sep 25 17:34:52 2015 [29171][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:34:52 2015 [25735][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:41:08 2015 [29181][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:41:13 2015 [28863][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 17:41:28 2015 [28038][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 18:19:41 2015 [26964][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 18:19:41 2015 [26964][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 18:19:41 2015 [26964][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 18:19:41 2015 [26964][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 18:19:41 2015 [26964][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 18:35:13 2015 [27901][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 18:35:26 2015 [27901][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 18:35:28 2015 [27901][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 18:35:42 2015 [28863][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 18:35:48 2015 [575][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 18:36:06 2015 [1851][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 18:36:07 2015 [1851][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 18:36:07 2015 [1851][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_task_oqc_product. skipping oqc_task subpanel
-Fri Sep 25 18:36:07 2015 [1851][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_product_documents. skipping documents subpanel
-Fri Sep 25 18:36:07 2015 [1851][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_offering_oqc_product. skipping oqc_offering subpanel
-Fri Sep 25 18:36:07 2015 [1851][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_contract_oqc_product. skipping oqc_contract subpanel
-Fri Sep 25 18:36:08 2015 [1851][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 18:36:10 2015 [1851][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 18:36:20 2015 [27901][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 18:36:20 2015 [27901][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 18:36:28 2015 [575][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 18:36:32 2015 [575][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 18:36:33 2015 [575][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 18:36:33 2015 [575][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_task_oqc_product. skipping oqc_task subpanel
-Fri Sep 25 18:36:33 2015 [575][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_product_documents. skipping documents subpanel
-Fri Sep 25 18:36:33 2015 [575][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_offering_oqc_product. skipping oqc_offering subpanel
-Fri Sep 25 18:36:33 2015 [575][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_contract_oqc_product. skipping oqc_contract subpanel
-Fri Sep 25 18:36:34 2015 [575][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 18:37:03 2015 [1929][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 18:37:04 2015 [1929][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 18:37:14 2015 [26964][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 18:37:14 2015 [26964][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 18:37:14 2015 [26964][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_task_oqc_product. skipping oqc_task subpanel
-Fri Sep 25 18:37:14 2015 [26964][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_product_documents. skipping documents subpanel
-Fri Sep 25 18:37:14 2015 [26964][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_offering_oqc_product. skipping oqc_offering subpanel
-Fri Sep 25 18:37:14 2015 [26964][4b4e55a5-4581-05a5-4f14-5604acc3ed56][FATAL] Missing relationship definition oqc_contract_oqc_product. skipping oqc_contract subpanel
-Fri Sep 25 18:37:15 2015 [26964][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 18:43:00 2015 [25735][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 18:43:00 2015 [25735][1][FATAL] Retrieving record (email1='bwiggins@example.com' OR email2='bwiggins@example.com') AND deleted=0: Query Failed: SELECT id FROM contacts WHERE (email1='bwiggins@example.com' OR email2='bwiggins@example.com') AND deleted=0 LIMIT 0,1: MySQL error 1054: Unknown column 'email1' in 'where clause'
-Fri Sep 25 18:46:18 2015 [574][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 18:49:38 2015 [1907][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 18:51:25 2015 [1929][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 18:51:52 2015 [26964][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
-Fri Sep 25 18:51:58 2015 [1925][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 17:50:41 2015 [15271][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 17:50:43 2015 [15271][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 17:50:44 2015 [15271][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 17:50:44 2015 [15661][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 17:50:46 2015 [15271][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 17:50:47 2015 [15271][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 17:50:47 2015 [15271][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 17:50:55 2015 [16189][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 17:50:58 2015 [16189][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 17:50:59 2015 [16189][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 17:50:59 2015 [16361][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 17:51:42 2015 [14887][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 17:51:43 2015 [14887][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 17:51:43 2015 [14887][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 17:51:45 2015 [14887][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 17:51:49 2015 [14887][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 17:51:50 2015 [14887][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 17:51:50 2015 [16189][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 17:57:30 2015 [16361][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 17:57:31 2015 [16361][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 17:57:31 2015 [16361][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 17:57:33 2015 [16361][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 17:57:38 2015 [16361][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 17:57:39 2015 [16361][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 17:57:39 2015 [15661][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 17:57:59 2015 [18017][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 17:58:00 2015 [18017][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 17:58:00 2015 [18017][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 17:58:02 2015 [18017][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 17:58:08 2015 [18017][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 17:58:09 2015 [18017][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 17:58:09 2015 [15661][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:01:28 2015 [17628][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:01:30 2015 [17628][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:01:30 2015 [17628][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:01:33 2015 [17628][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:01:39 2015 [17628][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:01:39 2015 [17628][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:01:39 2015 [18424][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:02:02 2015 [14887][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:02:03 2015 [14887][1][FATAL]  Query Failed: INSERT INTO mno_id_map (mno_entity_guid, mno_entity_name, app_entity_id, app_entity_name, db_timestamp) VALUES ('31ce27e0-4583-0133-c3d8-74d43510c326','PRODUCT','af691087-2556-3920-20f5-5604f36525a7','OQC_PRODUCT', LOCALTIMESTAMP(0)): MySQL error 1062: Duplicate entry '31ce27e0-4583-0133-c3d8-74d43510c326-PRODUCT-af691087-2556-3920-' for key 'mno_id_map_unique_key'
+Sat Sep 26 18:02:03 2015 [14887][1][FATAL]  Query Failed: INSERT INTO mno_id_map (mno_entity_guid, mno_entity_name, app_entity_id, app_entity_name, db_timestamp) VALUES ('ba7733d1-4583-0133-c3dc-74d43510c326','PRODUCT','af691087-2556-3920-20f5-5604f36525a7','OQC_PRODUCT', LOCALTIMESTAMP(0)): MySQL error 1062: Duplicate entry 'ba7733d1-4583-0133-c3dc-74d43510c326-PRODUCT-af691087-2556-3920-' for key 'mno_id_map_unique_key'
+Sat Sep 26 18:06:34 2015 [18424][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:06:36 2015 [18424][1][FATAL]  Query Failed: INSERT INTO mno_id_map (mno_entity_guid, mno_entity_name, app_entity_id, app_entity_name, db_timestamp) VALUES ('31ce27e0-4583-0133-c3d8-74d43510c326','PRODUCT','af691087-2556-3920-20f5-5604f36525a7','OQC_PRODUCT', LOCALTIMESTAMP(0)): MySQL error 1062: Duplicate entry '31ce27e0-4583-0133-c3d8-74d43510c326-PRODUCT-af691087-2556-3920-' for key 'mno_id_map_unique_key'
+Sat Sep 26 18:06:36 2015 [18424][1][FATAL]  Query Failed: INSERT INTO mno_id_map (mno_entity_guid, mno_entity_name, app_entity_id, app_entity_name, db_timestamp) VALUES ('ba7733d1-4583-0133-c3dc-74d43510c326','PRODUCT','af691087-2556-3920-20f5-5604f36525a7','OQC_PRODUCT', LOCALTIMESTAMP(0)): MySQL error 1062: Duplicate entry 'ba7733d1-4583-0133-c3dc-74d43510c326-PRODUCT-af691087-2556-3920-' for key 'mno_id_map_unique_key'
+Sat Sep 26 18:06:58 2015 [17628][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:06:59 2015 [17628][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:07:04 2015 [17628][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:07:15 2015 [18017][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:07:15 2015 [18017][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:08:20 2015 [18424][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:08:21 2015 [18424][1][FATAL]  Query Failed: UPDATE mno_taxes SET rate=10 AND name=GST WHERE id=2b1fe489-f185-f72b-7d4f-560652c077dc: MySQL error 1054: Unknown column '2b1fe489' in 'where clause'
+Sat Sep 26 18:08:21 2015 [18424][1][FATAL]  Query Failed: INSERT INTO mno_id_map (mno_entity_guid, mno_entity_name, app_entity_id, app_entity_name, db_timestamp) VALUES ('31ce27e0-4583-0133-c3d8-74d43510c326','PRODUCT','af691087-2556-3920-20f5-5604f36525a7','OQC_PRODUCT', LOCALTIMESTAMP(0)): MySQL error 1062: Duplicate entry '31ce27e0-4583-0133-c3d8-74d43510c326-PRODUCT-af691087-2556-3920-' for key 'mno_id_map_unique_key'
+Sat Sep 26 18:08:21 2015 [18424][1][FATAL]  Query Failed: INSERT INTO mno_id_map (mno_entity_guid, mno_entity_name, app_entity_id, app_entity_name, db_timestamp) VALUES ('ba7733d1-4583-0133-c3dc-74d43510c326','PRODUCT','af691087-2556-3920-20f5-5604f36525a7','OQC_PRODUCT', LOCALTIMESTAMP(0)): MySQL error 1062: Duplicate entry 'ba7733d1-4583-0133-c3dc-74d43510c326-PRODUCT-af691087-2556-3920-' for key 'mno_id_map_unique_key'
+Sat Sep 26 18:08:37 2015 [14887][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:08:43 2015 [14887][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:08:43 2015 [17528][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:10:20 2015 [18662][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:10:23 2015 [18662][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:10:24 2015 [18662][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:10:24 2015 [17628][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:10:27 2015 [18662][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:10:28 2015 [18662][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:10:28 2015 [18662][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:18:11 2015 [19208][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:18:26 2015 [16493][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:18:27 2015 [16493][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:18:27 2015 [19314][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:18:30 2015 [16493][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:18:31 2015 [16493][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:18:31 2015 [16493][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:18:43 2015 [18424][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:18:48 2015 [18424][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:18:49 2015 [18424][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:18:49 2015 [19731][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:19:08 2015 [16493][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:19:12 2015 [16493][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:19:18 2015 [19748][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:19:19 2015 [17528][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:19:19 2015 [19748][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:19:36 2015 [16361][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:19:40 2015 [16361][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:19:43 2015 [16361][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:19:45 2015 [16361][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:19:48 2015 [16361][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:19:56 2015 [17528][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:19:58 2015 [19731][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:20:10 2015 [16361][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:20:10 2015 [16361][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:20:11 2015 [16361][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:20:11 2015 [19314][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:20:53 2015 [19775][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:20:54 2015 [19775][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:20:54 2015 [16493][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:22:00 2015 [19314][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:22:10 2015 [18424][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:22:30 2015 [16361][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:22:31 2015 [16361][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:22:31 2015 [19822][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:23:00 2015 [16493][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:23:00 2015 [16493][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:23:00 2015 [19731][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:23:06 2015 [19855][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:23:07 2015 [19855][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:23:07 2015 [19855][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:23:21 2015 [19314][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:23:22 2015 [19314][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:23:23 2015 [19314][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:23:23 2015 [19822][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:23:51 2015 [19775][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:24:33 2015 [19314][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:24:33 2015 [19314][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:24:33 2015 [19963][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:24:34 2015 [19314][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:24:35 2015 [19314][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:24:35 2015 [19314][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:24:38 2015 [19314][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:24:40 2015 [19314][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:25:05 2015 [20021][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:25:06 2015 [20021][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:25:07 2015 [20021][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:25:07 2015 [16361][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:29:04 2015 [17528][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:29:05 2015 [17528][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:29:05 2015 [17528][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:29:16 2015 [19314][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:29:17 2015 [19314][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:29:18 2015 [19314][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!
+Sat Sep 26 18:29:18 2015 [20088][-none-][FATAL] Configuration variable date.timezone is not set, guessed timezone Australia/Melbourne. Please set date.timezone="Australia/Melbourne" in php.ini!

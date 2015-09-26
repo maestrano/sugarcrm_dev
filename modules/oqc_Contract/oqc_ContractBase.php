@@ -514,7 +514,7 @@ class oqc_ContractBase extends Issue {
 		$return_id = parent::save($check_notify);
 	
     // Hook Maestrano
-		// When saving a Contract, previous version is saved as well and we do not want to push it to connec!
+    // When saving a Contract, previous version is saved as well and we do not want to push it to connec!
     if(empty($this->nextrevisions) && $pushToConnec) {
       $mapper = 'InvoiceMapper';
       if(class_exists($mapper)) {

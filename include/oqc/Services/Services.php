@@ -207,7 +207,7 @@ function getServicesHtml($focus, $name, $value, $view) {
 	//$GLOBALS['log']->error('OQC: Legacy Vat value is '.$vat);
 	
 	$sep = get_number_seperators();
-	$vat_default = floatval(str_replace($sep[1],'.',$app_list_strings['oqc_vat_list']['default']))/100 ;
+	$vat_default = floatval(str_replace($sep[1],'.',TaxMapper::allTaxes()['default']))/100 ;
 	//$GLOBALS['log']->error('OQC: Default Vat value is '.$vat_default);
 	$smarty->assign('hideContainer', $hideRecurringContainer);
 	$smarty->assign('thousandsSeparator', $sep[0]);
@@ -215,7 +215,7 @@ function getServicesHtml($focus, $name, $value, $view) {
 	$smarty->assign('dropdownLabelsUnitJSON', $json->encode($app_list_strings['unit_list']));
 	$smarty->assign('dropdownLabelsRecurrenceJSON', $json->encode($app_list_strings['zeitbezug_list']));
 	$smarty->assign('dropdownLabelsDiscountTypeJSON', $json->encode($app_list_strings['discount_select_list']));
-	$smarty->assign('dropdownLabelsVatJSON', $json->encode($app_list_strings['oqc_vat_list']));
+	$smarty->assign('dropdownLabelsVatJSON', $json->encode(TaxMapper::allTaxes()));
 	$smarty->assign('dateFormat', $locale->getPrecedentPreference('default_date_format'));
 	
 	$smarty->assign('currencyJavascript', $currencyScript);

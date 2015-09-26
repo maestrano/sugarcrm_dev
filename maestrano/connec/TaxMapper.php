@@ -70,7 +70,14 @@ class TaxMapper extends BaseMapper {
 
   public function findTaxByLabel($tax_name) {
     global $adb;
-    $query = "SELECT * from mno_taxes WHERE name = '$tax_name'";
+    $query = "SELECT * from mno_taxes WHERE name = '$tax_name' LIMIT 1";
+    $result = $adb->query($query);
+    return (object) $adb->fetchByAssoc($result);
+  }
+
+  public function findTaxByRate($tax_rate) {
+    global $adb;
+    $query = "SELECT * from mno_taxes WHERE rate = '$tax_rate' LIMIT 1";
     $result = $adb->query($query);
     return (object) $adb->fetchByAssoc($result);
   }
@@ -90,5 +97,18 @@ class TaxMapper extends BaseMapper {
     global $adb;
     $update_query = "UPDATE mno_taxes SET rate=? AND name=? WHERE id=?";
     $adb->pquery($update_query, array($tax_rate, $tax_name, $tax_id));
+  }
+
+  public static function allTaxes() {
+    global $adb;
+    $query = "SELECT * from mno_taxes ORDER BY rate";
+    $result = $adb->query($query);
+
+    $taxes = array('default' => '0%');
+    while(($tax = $adb->fetchByAssoc($result)) != null) {
+      $rate_100 = $tax['rate'] / 100.0;
+      $taxes["$rate_100"] = $tax['rate'] . "%";
+    }
+    return $taxes;
   }
 }

@@ -120,7 +120,7 @@ function getProductsHtml($focus, $name, $value, $view) {
 	$smarty->assign('currencyJavascript', $currencyScript);
 	$smarty->assign('languageStrings', $languageStrings);
 	$smarty->assign('languageStringsJSON', $languageStringsJSON);
-	$smarty->assign('dropdownLabelsVatJSON', $json->encode($app_list_strings['oqc_vat_list'])); //1.7.8
+	$smarty->assign('dropdownLabelsVatJSON', $json->encode(TaxMapper::allTaxes())); //1.7.8
 	$smarty->assign('sqsJavascript', $sqsJavascript);
 	$smarty->assign('now', date($timedate->get_date_format()));
 	$smarty->assign('contractId', $focus->id);

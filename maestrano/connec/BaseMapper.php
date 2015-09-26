@@ -27,6 +27,16 @@ abstract class BaseMapper {
     return (!is_null($variable) && isset($variable) && !empty($variable) && !(is_string($variable) && trim($variable)===''));
   }
 
+  protected function format_date_to_php($connec_date) {
+    return date('Y-m-d', strtotime($connec_date));
+  }
+
+  protected function format_date_to_connec($php_date) {
+    if(!$this->is_set($php_date)) { return ''; }
+    $date = DateTime::createFromFormat('Y-m-d', $php_date);
+    return $date->format('c');
+  }
+
   // Overwrite me!
   // Return the Model local id
   abstract protected function getId($model);
@@ -66,8 +76,25 @@ abstract class BaseMapper {
     return $model;
   }
 
+  // Overwrite me!
+  // Optional: Returns the Connec! Resource ID. When dealing with embedded documents, ID is unique only within the embedded collection.
+  // In this case it is advised to prefix the Embedded Document ID with the Parent Document ID (eg: PARENT_ID#EMBEDDED_DOCUMENT_ID)
+  protected function getConnecResourceId($resource_hash) {
+    return $resource_hash['id'];
+  }
+
   public function getConnecResourceName() {
     return $this->connec_resource_name;
+  }
+
+  public function instanciateModel() {
+    $entity_class = $this->local_entity_name;
+    if(class_exists($entity_class)) {
+      return new $entity_class();
+    } else {
+      error_log("Class $entity_class not loaded, model cannot be created");
+      return null;
+    }
   }
 
   // Load a local Model by its Connec! id. If it does not exist locally, it is fetched from Connec! first
@@ -90,7 +117,7 @@ abstract class BaseMapper {
   public function findConnecIdByLocalId($local_id) {
     error_log("load Connec! ID by local id entity_name=$this->local_entity_name, local_id=$local_id");
 
-    if($local_id == 0) { return null; }
+    if(is_null($local_id)) { return null; }
 
     // Find the local mapping
     $mno_id_map = MnoIdMap::findMnoIdMapByLocalIdAndEntityName($local_id, $this->local_entity_name);
@@ -133,14 +160,14 @@ abstract class BaseMapper {
         try {
           $this->saveConnecResource($resources_hash);
         } catch (Exception $e) {
-          error_log("Error when processing entity=".$this->connec_entity_name.", id=".$resource_hash['id'].", message=" . $e->getMessage());
+          error_log("Error when processing entity=".$this->connec_entity_name.", id=".getConnecResourceId($resource_hash).", message=" . $e->getMessage());
         }
       } else {
         foreach($resources_hash as $resource_hash) {
           try {
             $this->saveConnecResource($resource_hash);
           } catch (Exception $e) {
-            error_log("Error when processing entity=".$this->connec_entity_name.", id=".$resource_hash['id'].", message=" . $e->getMessage());
+            error_log("Error when processing entity=".$this->connec_entity_name.", id=".getConnecResourceId($resource_hash).", message=" . $e->getMessage());
           }
         }
       }
@@ -189,16 +216,17 @@ abstract class BaseMapper {
   // Map a Connec Resource to an SugarCRM Model
   public function findOrCreateIdMap($resource_hash, $model) {
     $local_id = $this->getId($model);
-    error_log("findOrCreateIdMap entity=$this->connec_entity_name, local_id=$local_id, entity_id=" . $resource_hash['id']);
+    $mno_id = $this->getConnecResourceId($resource_hash);
+    error_log("findOrCreateIdMap entity=$this->connec_entity_name, local_id=$local_id, entity_id=" . $mno_id);
 
-    if(is_null($local_id) || is_null($resource_hash['id'])) { return null; }
+    if(is_null($local_id) || is_null($mno_id)) { return null; }
     $mno_id_map = MnoIdMap::findMnoIdMapByLocalIdAndEntityName($local_id, $this->local_entity_name);
-    if($mno_id_map && $mno_id_map['mno_entity_guid'] != $resource_hash['id']) {
-      error_log("mno_id_map changed from " . $mno_id_map['mno_entity_guid'] . " to " . $resource_hash['id']);
-      return MnoIdMap::addMnoIdMap($local_id, $this->local_entity_name, $resource_hash['id'], $this->connec_entity_name);
+    if($mno_id_map && $mno_id_map['mno_entity_guid'] != $mno_id) {
+      error_log("mno_id_map changed from " . $mno_id_map['mno_entity_guid'] . " to " . $mno_id);
+      return MnoIdMap::addMnoIdMap($local_id, $this->local_entity_name, $mno_id, $this->connec_entity_name);
     } else if(!$mno_id_map) {
-      error_log("map connec resource entity=$this->connec_entity_name, id=" . $resource_hash['id'] . ", local_id=$local_id, local_entity=$this->local_entity_name");
-      return MnoIdMap::addMnoIdMap($local_id, $this->local_entity_name, $resource_hash['id'], $this->connec_entity_name);
+      error_log("map connec resource entity=$this->connec_entity_name, id=" . $mno_id . ", local_id=$local_id, local_entity=$this->local_entity_name");
+      return MnoIdMap::addMnoIdMap($local_id, $this->local_entity_name, $mno_id, $this->connec_entity_name);
     }
 
     return $mno_id_map;
@@ -220,7 +248,7 @@ abstract class BaseMapper {
     $model = null;
 
     // Find local Model if exists
-    $mno_id = $resource_hash['id'];
+    $mno_id = $this->getConnecResourceId($resource_hash);
     $mno_id_map = MnoIdMap::findMnoIdMapByMnoIdAndEntityName($mno_id, $this->connec_entity_name, $this->local_entity_name);
     
     error_log("find or initialize entity=$this->connec_entity_name, mno_id=$mno_id, mno_id_map=" . json_encode($mno_id_map));
@@ -240,14 +268,7 @@ abstract class BaseMapper {
     if($model == null) { $model = $this->matchLocalModel($resource_hash); }
 
     // Create a new Model if none found
-    if($model == null) {
-      $entity_class = $this->local_entity_name;
-      if(class_exists($entity_class)) {
-        $model = new $entity_class();
-      } else {
-        error_log("Class $entity_class not loaded, model cannot be created");
-      }
-    }
+    if($model == null) { $model = $this->instanciateModel(); }
 
     return $model;
   }

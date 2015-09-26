@@ -4,8 +4,6 @@
 * Map Connec Product representation to/from SugarCRM Product
 */
 class ProductMapper extends BaseMapper {
-  protected $companyMapper = null;
-
   public function __construct() {
     parent::__construct();
 
@@ -13,18 +11,16 @@ class ProductMapper extends BaseMapper {
     $this->local_entity_name = 'oqc_Product';
     $this->connec_resource_name = 'items';
     $this->connec_resource_endpoint = 'items';
-
-    $this->companyMapper = new CompanyMapper();
   }
 
-  // Return the Product local id
+  // Return the Product root version id
   protected function getId($product) {
     return $product->getRootRevision()->id;
   }
 
   // Return a local Product by id
   protected function loadModelById($local_id) {
-    $product = new oqc_Product();
+    $product = new $this->local_entity_name();
     $product->retrieve($local_id);
     return $product->getHeadRevision();
   }

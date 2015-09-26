@@ -2463,6 +2463,69 @@ LOCK TABLES `meetings_users` WRITE;
 UNLOCK TABLES;
 
 --
+-- Table structure for table `mno_taxes`
+--
+
+DROP TABLE IF EXISTS `mno_taxes`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `mno_taxes` (
+  `id` char(36) NOT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `date_entered` datetime DEFAULT NULL,
+  `date_modified` datetime DEFAULT NULL,
+  `modified_user_id` char(36) DEFAULT NULL,
+  `created_by` char(36) DEFAULT NULL,
+  `description` text,
+  `deleted` tinyint(1) DEFAULT '0',
+  `assigned_user_id` char(36) DEFAULT NULL,
+  `rate` decimal(5,2) DEFAULT '0.00',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `mno_taxes`
+--
+
+LOCK TABLES `mno_taxes` WRITE;
+/*!40000 ALTER TABLE `mno_taxes` DISABLE KEYS */;
+/*!40000 ALTER TABLE `mno_taxes` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `mno_taxes_audit`
+--
+
+DROP TABLE IF EXISTS `mno_taxes_audit`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `mno_taxes_audit` (
+  `id` char(36) NOT NULL,
+  `parent_id` char(36) NOT NULL,
+  `date_created` datetime DEFAULT NULL,
+  `created_by` varchar(36) DEFAULT NULL,
+  `field_name` varchar(100) DEFAULT NULL,
+  `data_type` varchar(100) DEFAULT NULL,
+  `before_value_string` varchar(255) DEFAULT NULL,
+  `after_value_string` varchar(255) DEFAULT NULL,
+  `before_value_text` text,
+  `after_value_text` text,
+  PRIMARY KEY (`id`),
+  KEY `idx_mno_taxes_parent_id` (`parent_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `mno_taxes_audit`
+--
+
+LOCK TABLES `mno_taxes_audit` WRITE;
+/*!40000 ALTER TABLE `mno_taxes_audit` DISABLE KEYS */;
+/*!40000 ALTER TABLE `mno_taxes_audit` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `notes`
 --
 
