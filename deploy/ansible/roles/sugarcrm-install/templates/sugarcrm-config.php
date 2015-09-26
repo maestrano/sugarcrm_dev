@@ -1,5 +1,5 @@
 <?php
-// created: 2015-08-04 07:06:13
+// created: 2015-09-26 08:52:48
 $sugar_config = array (
   'addAjaxBannedModules' => 
   array (
@@ -66,8 +66,8 @@ $sugar_config = array (
   array (
     'db_host_name' => 'localhost',
     'db_host_instance' => 'SQLEXPRESS',
-    'db_user_name' => 'root',
-    'db_password' => '{{ mysql_root_password }}',
+    'db_user_name' => '{{ sugarcrm_db_user }}',
+    'db_password' => '{{ sugarcrm_db_password }}',
     'db_name' => '{{ sugarcrm_db_name }}',
     'db_type' => 'mysql',
     'db_port' => '',
@@ -329,7 +329,7 @@ $sugar_config = array (
   'site_url' => 'http://{{ server_hostname }}',
   'slow_query_time_msec' => '100',
   'stack_trace_errors' => false,
-  'sugar_version' => '6.5.21',
+  'sugar_version' => '6.5.22',
   'sugarbeet' => true,
   'time_formats' => 
   array (
