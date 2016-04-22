@@ -84,17 +84,6 @@
     name: apache2 
     state: restarted
 
-- name: SugarCRM | Set file permissions
-  file:
-    path: "{{ sugarcrm_root_path }}"
-    mode: 0755
-    owner: www-data
-    group: www-data
-    state: directory
-    recurse: yes
-  tags:
-    - configuration
-
 - name: SugarCRM | Configuration file config.php
   template: 
     src: sugarcrm-config.php
@@ -128,6 +117,17 @@
     owner: www-data
     group: www-data
     mode: 777
+  tags:
+    - configuration
+
+- name: SugarCRM | Application directory permissions
+  file:
+    path: "{{ sugarcrm_root_path }}"
+    mode: 0755
+    owner: www-data
+    group: www-data
+    state: directory
+    recurse: yes
   tags:
     - configuration
 
