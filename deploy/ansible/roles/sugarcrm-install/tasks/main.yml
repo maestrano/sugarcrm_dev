@@ -144,7 +144,7 @@
     name: SugarCRM job to run every minute
     minute: "*/5"
     hour: "*"
-    job: "php -f {{ sugarcrm_root_path }}/cron/cron.php"
+    job: "php -f {{ sugarcrm_root_path }}/cron.php"
   tags:
     - configuration
 
