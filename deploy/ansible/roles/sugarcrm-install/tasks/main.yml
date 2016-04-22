@@ -120,17 +120,6 @@
   tags:
     - configuration
 
-- name: SugarCRM | Application directory permissions
-  file:
-    path: "{{ sugarcrm_root_path }}"
-    mode: 0755
-    owner: www-data
-    group: www-data
-    state: directory
-    recurse: yes
-  tags:
-    - configuration
-
 - name: SugarCRM | Set log files permissions
   file:
     path: /var/log/apache2
@@ -156,5 +145,16 @@
     minute: "*/5"
     hour: "*"
     job: "php -f {{ sugarcrm_root_path }}/cron/cron.php"
+  tags:
+    - configuration
+
+- name: SugarCRM | Application directory permissions
+  file:
+    path: "{{ sugarcrm_root_path }}"
+    mode: 0755
+    owner: www-data
+    group: www-data
+    state: directory
+    recurse: yes
   tags:
     - configuration
